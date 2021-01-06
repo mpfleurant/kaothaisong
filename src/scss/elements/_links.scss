@@ -12,7 +12,6 @@ a{
 
   &:hover{
     color: $color-link-hover;
-    text-decoration: underline;
   }
 
   &:active{
@@ -21,5 +20,17 @@ a{
 
   &:focus{
     color: $color-link-focus;
+  }
+}
+
+
+@media (min-width: 800px) and (max-width: 1500px) {
+
+  .home a {
+
+
+    &:visited {
+      color: $white;
+    }
   }
 }

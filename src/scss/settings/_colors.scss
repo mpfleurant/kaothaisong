@@ -22,13 +22,14 @@ $color-bg-page: $white;
 
 $color-bg-light: $gray-100;
 $color-bg-dark: $gray-800;
+$color-li: $black;
 
 $color-title-light: $gray-100;
 $color-title-dark: $gray-800;
 
 $color-link: $white;
-$color-link-visited: $color-link;
-$color-link-hover: lighten($color-link, 35%);
+$color-link-visited: $black;
+$color-link-hover: $gray-500;
 //$color-link-hover: darken($color-link, 5%);
 $color-link-active: lighten($color-link, 15%);
 //$color-link-active: darken($color-link, 15%);
